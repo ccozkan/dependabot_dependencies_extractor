@@ -5,7 +5,7 @@ MY_TOKEN = 'abc123xyz'
 MY_REPO = 'parasutcom/da-vinci'
 TOTAL_CLOSED_PRS = 1094
 
-url = 'https://api.github.com/repos/' + '/pulls?state=closed&per_page=25'
+url = 'https://api.github.com/repos/' + MY_REPO + '/pulls?state=closed&per_page=25'
 
 headers = {"Authorization": "token " + MY_TOKEN}
 
